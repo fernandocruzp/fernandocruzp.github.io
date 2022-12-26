@@ -79,8 +79,10 @@ br.clear{margin:0;padding:0}
 #et-secondary-nav li ul,#top-header{background-color:#2ea3f2}
 #main-content{background-color:#f5eeb5}/*importante*/
 #main-header{-webkit-transition:background-color .4s,color .4s,transform .4s,opacity .4s ease-in-out;-webkit-transition:background-color .4s,color .4s,opacity .4s ease-in-out,-webkit-transform .4s;transition:background-color .4s,color .4s,opacity .4s ease-in-out,-webkit-transform .4s;transition:background-color .4s,color .4s,transform .4s,opacity .4s ease-in-out;transition:background-color .4s,color .4s,transform .4s,opacity .4s ease-in-out,-webkit-transform .4s}
-#main-header.et-disabled-animations *{-webkit-transition-duration:0s!important;transition-duration:0s!important}.container{width:80%;max-width:1080px;margin:auto}body:not(.et-tb) #main-content .container,body:not(.et-tb-has-header)
-																										    #main-content .container{padding-top:58px}
+#main-header.et-disabled-animations *{-webkit-transition-duration:0s!important;transition-duration:0s!important}
+.container{width:80%;max-width:1080px;margin:auto;background-color:#E9E6DF}
+#main-content .container{padding-top:58px
+			}
 .et_full_width_page #main-content .container:before,.et_full_width_portfolio_page #main-content .container:before{display:none}
 .et_transparent_nav #page-container{padding-top:0!important}
 .et_boxed_layout #page-container{-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,.2);box-shadow:0 0 10px 0 rgba(0,0,0,.2)}
