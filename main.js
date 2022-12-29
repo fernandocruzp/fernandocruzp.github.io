@@ -13,7 +13,7 @@ function slides(){
     console.log(contador);
     sliderIndividual[contador].style.display = "none";
     contador++;
-    if(contador >= sliderIndividual.length-1){
+    if(contador > sliderIndividual.length-1){
 	contador=0;
     }
     sliderIndividual[contador].style.display = "block";
