@@ -20,7 +20,10 @@
 </head>
 <body class="home page-template-default page page-id-9 et_pb_button_helper_class et_transparent_nav et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter linux et_pb_gutters3 et_pb_pagebuilder_layout et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css">
   <div id="page-container">
-    <header id="main-header"  name="main" data-height-onload="66">			<div class="container clearfix et_menu_container">					<div class="logo_container">					  <span class="logo_helper"></span>
+    <header id="main-header"  name="main" data-height-onload="66">
+      <div class="container clearfix et_menu_container">
+	<div class="logo_container">
+	  <span class="logo_helper"></span>
 	  <a href="#main">
 	    <img src="logo.jpg" width="1500" height="1500" alt="A" id="logo" data-height-percentage="100" />
 	  </a>
@@ -62,11 +65,11 @@
 						      <div class="et_pb_module et_pb_gallery et_pb_gallery_1 et_pb_slider et_pb_gallery_fullwidth 
 								    et_slider_auto et_slider_speed_5000 clearfix et_had_animation et_slide_transition_to_next et_pb_bg_layout_light" style="">
 							<div class="et_pb_gallery_items et_post_gallery clearfix" data-per_page="4">
-							  <div class="et_pb_gallery_item et_pb_bg_layout_light et_pb_gallery_item_1_0" style="z-index: 1; display: none; opacity: 0;">
+							  <div class="et_pb_gallery_item et_pb_bg_layout_light et_pb_gallery_item_1_0" style="z-index: 1; display: block; opacity: 1;">
 							    <div class="et_pb_gallery_image landscape">
 							      <a href="imagen.png" title="image_63ARIABRIDE">
-								<img decoding="async" loading="lazy" width="2149" height="2491"src="imagen.png" class="wp-image-15"
-								       srcset="imagen.png 2149w, imagen.png 259w, imagen.png 883w, imagen.png  768w, imagen.png 1325w" sizes="(max-width: 2149px) 100vw, 2149px">			
+								<img decoding="async" loading="lazy" width="2149" height="2491"src="vest.jpg" class="wp-image-15"
+								       srcset="vest.jpg 2149w, vest.jpg 259w, vest.jpg 883w, vest.jpg  768w, vest.jpg 1325w" sizes="(max-width: 2149px) 100vw, 2149px">			
 							      </a>
 							    </div>
 							  </div>
@@ -86,7 +89,7 @@
 							      </a>
 							    </div>
 							  </div>
-							  <div class="et_pb_gallery_item et_pb_bg_layout_light et_pb_gallery_item_1_3 et-pb-active-slide" style="z-index: 1; display: block; opacity: 1;">
+							  <div class="et_pb_gallery_item et_pb_bg_layout_light et_pb_gallery_item_1_3 et-pb-active-slide" style="z-index: 1; display: none; opacity: 0;">
 							    <div class="et_pb_gallery_image landscape">
 							      <a href="imagen.png" title="image_63ARIABRIDE">
 								<img decoding="async" loading="lazy" width="2149" height="2491" src="imagen.png" class="wp-image-15"
@@ -96,11 +99,11 @@
 							  </div>
 							</div><!-- .et_pb_gallery_items -->
 							<div class="et-pb-slider-arrows">
-							  <a class="et-pb-arrow-prev" href="#" style="color:inherit">
-							    <span>Anterior</span>
+							  <a class="et-pb-arrow-prev" style="color:inherit" onclick="suma(-1)">
+							    &#10094;
 							  </a>
-							  <a class="et-pb-arrow-next" href="#" style="color:inherit">
-							    <span>Siguiente</span>
+							  <a class="et-pb-arrow-next" style="color:inherit" onclick="suma(1)">
+							    &#10095;
 							  </a>
 							</div>
 							<div class="et-pb-controllers">
@@ -225,6 +228,7 @@
 				</article> <!-- .et_pb_post -->
 			  </div> <!-- #main-content -->
 			</div> <!-- #et-main-area -->
-  </div> <!-- #page-container -->
+</div> <!-- #page-container -->
+<script src="slide.js"></script>
 </body>
 </html>
